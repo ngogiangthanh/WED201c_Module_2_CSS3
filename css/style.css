@@ -1,0 +1,135 @@
+
+body {
+    font-family: 'Verdana', sans-serif; /* body - font family */
+    font-size: 15px; /* body - font size */
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.4;
+}
+
+header {
+    background-color: rgb(190, 190, 190); /* header - background color */
+    color: #ffffff;
+    text-align: center;
+}
+
+header img {
+    border: 2px solid black;
+}
+
+header h1 {
+    text-align: center; /* header - text alignment */
+    font-family: 'Georgia', serif; /* header - font family */
+    color: #050789; /* header - color */
+    margin: 10px 0;
+}
+
+nav {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 80%;
+
+}
+
+nav img {
+    width: 10%;
+    position: relative; /* Add relative positioning for top adjustment */
+    top: 20px; /* Adjust the top position */
+}
+
+nav ul {
+    background-color: #89eaf9; /* nav - background color */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* li - display-block */
+    width: 200px; /* li - width */
+}
+
+nav ul li a {
+    color: #0213ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(102, 0, 102);
+}
+
+
+/* Style for the main */
+main {
+    background-color: rgb(221, 221, 141); /* main - background color */
+    font-size: 17px; /* main - font size */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the h2 title in main */
+main h2 {
+    margin: 10px;
+}
+
+/* Style for the paragraph in main */
+main p {
+    line-height: 1.4; /* p - line height */
+    color: black;
+    text-align: justify;
+    margin: 10px;
+}
+
+/* Style for the image's border in main */
+main div img {
+    border-radius: 5px;
+}
+
+/* Style the grid class */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Two columns, each 40% wide */
+    justify-content: space-around; /* Adjust horizontal spacing */
+    align-items: center; /* Vertically center items */
+    row-gap: 20px; /* Add spacing between rows */
+}
+
+/* Style images within the grid class */
+.grid img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Style the flex class */
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Distribute space around items */
+}
+
+/* Style images within the flex class */
+.flex img {
+    margin: 10px 0;
+    width: 10%;
+}
+
+/* Style for the footer */
+footer {
+    background-color: rgb(190, 190, 190); /* footer - background color */
+    color: #000000;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer a {
+    color: #1003fd;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: rgb(102, 0, 102);
+}
+  
+
